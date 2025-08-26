@@ -1,0 +1,23 @@
+# Thomas McKinney 8/26/2025
+
+# A simple program that is meant for practice with Exception Handling
+
+
+try:
+    number = int(input("enter a number to divide 20 by: "))
+    result = 20 / number
+
+
+except ValueError:
+
+    print("please enter a number")
+
+
+except ZeroDivisionError:
+
+    print("You cannot divide by zero.")
+
+
+else:
+
+    print("20 divided by " + str(number) + " is " + str(result))
