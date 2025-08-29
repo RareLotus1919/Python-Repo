@@ -1,0 +1,26 @@
+# Thomas McKinney 8/29/2025
+
+
+# Program that holds a database of pets and their info
+# Utilizing classes and methods 
+
+
+
+class Cat:
+
+
+    def __init__(self, name, age, color):
+
+        self.name = name
+        self.age = age
+        self.color = color
+
+
+    def greet(self):
+        print(f"Hello, my name is {self.name}! I am {self.age}, and I am {self.color} in color!")
+
+
+
+
+cat1 = Cat("Sigfried", 2, "Orange")
+cat1.greet()
